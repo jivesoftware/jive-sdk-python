@@ -1,0 +1,3 @@
+[submodule "examples/pawans/scripts"]
+	path = examples/pawans/scripts
+	url = git@github.com:shahpawan/jive-python-scripts.git
