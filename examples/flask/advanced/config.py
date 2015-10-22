@@ -1,2 +1,12 @@
-# Statement for enabling the development environment
 DEBUG = True
+CLIENT_ID = "abc"
+CLIENT_SECRET = "def"
+HOSTNAME="localhost"
+PORT=8090
+APP_NAME = "My App"
+OAUTH2_CALLBACK_URL = "https://localhost:8090/jive/oauth2/callback"
+OAUTH2_AUTHORIZE_URL = "https://localhost:8090/jive/oauth2/authorize"
+OAUTH2_ACCESS_URL = "https://localhost:8090/jive/oauth2/access_token"
+SERVICE_AUTHORIZE_URL="http://localhost:8090/jive/oauth2/authorization"
+ADD_ON_REGISTRATION="<EMPTY>"
+TILE_REGISTRATION="<EMPTY>"

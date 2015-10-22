@@ -1,8 +1,8 @@
 # Import flask and template operators
-from flask import Flask, request, redirect, url_for, send_from_directory
+from flask import Flask, request, redirect, url_for, send_from_directory, render_template
 
 # Import SQLAlchemy
-from flask.ext.sqlalchemy import SQLAlchemy
+#from flask.ext.sqlalchemy import SQLAlchemy
 
 # Define the WSGI application object
 app = Flask(__name__)
@@ -16,10 +16,10 @@ def not_found(error):
     return render_template('404.html'), 404
 
 # Import a module / component using its blueprint handler variable (mod_auth)
-from app.mod_register.controllers import mod_register as register_module
+from app.mod_jive.controllers import mod_jive as jive_module
 
 # Register blueprint(s)
-app.register_blueprint(register_module)
+app.register_blueprint(jive_module)
 # app.register_blueprint(xyz_module)
 # ..
 
