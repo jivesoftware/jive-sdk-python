@@ -1,0 +1,42 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "osapps": [
+        {
+            "name": "Jive SDK - Python Add-On Example - App",
+            "id": "2452a0e1-7dab-4458-a7b9-86281ae69f5a",
+            "appPath": "2452a0e17dab4458a7b986281ae69f5a",
+            "url": "%serviceURL%/apps/simpleapp/app.xml"
+        }
+    ],
+    "tiles" : [
+      {
+          "sampleData" : {
+              "title" : "Jive SDK - Python Add-On Example - List Tile",
+              "contents" : [ {
+                  "text" : "Loading..."
+              } ],
+              "config" : {
+                     "listStyle" : "contentList"
+              }
+          },
+          "displayName" : "My Custom Tile",
+          "name" : "my-custom-tile",
+          "description" : "Jive SDK - Python Add-On Example - List Tile",
+          "style" : "LIST",
+          "displayWidth" : "ALL",
+          "pageTypes" : ["PLACE", "USER", "NEWS", "MOBILE"],
+          "icons" : {
+              "16" : "https://community.jivesoftware.com/servlet/JiveServlet/showImage/102-99994-1-1023036/j.png",
+              "48" : "https://community.jivesoftware.com/servlet/JiveServlet/showImage/102-99994-1-1023036/j.png",
+              "128" : "https://community.jivesoftware.com/servlet/JiveServlet/showImage/102-99994-1-1023036/j.png"
+          },
+          "action": "%serviceURL%/tiles/my-custom-tile/action.html",
+          "config": "%serviceURL%/tiles/my-custom-tile/configuration.html",
+          "register": "%serviceURL%/jive/tile/register",
+          "unregister": "%serviceURL%/jive/tile/unregister"
+      }
+    ],
+    "jabCartridges": []
+}
