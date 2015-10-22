@@ -1,0 +1,17 @@
+{
+    "package_version": "1.0",
+    "id": "0BF4C9EB-AC5B-46C2-ADA9-5D0C5A2C11EB",
+    "type": "client-app",
+    "name": "Jive SDK - Python Add-On Example",
+    "description": "An example add-on using the Jive SDK for Python",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2015-10-19T19:11:11.234Z",
+    "register_url": "%serviceURL%/jive/addon/register",
+    "unregister_url": "%serviceURL%/jive/addon/unregister",
+    "service_url": "{{SERVICE_URL}}",
+    "config_url" :  "%serviceURL%/addon/configuration/index.html",
+    "redirect_url": "%serviceURL%"
+}
