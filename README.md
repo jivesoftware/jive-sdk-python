@@ -1,7 +1,7 @@
-# jive-sdk-ruby-gem
+# jive-sdk-python
 ![Alt](/dev_logo.png "Jive Developer Logo")
 
-This is currently a placeholder for a series tools to assist Go developers to build Jive Add-Ons. Reach out in the [Jive Developer Community](community.jivesoftware.com/community/developer) if you are interested in contributing.
+This is currently a placeholder for a series tools to assist Python developers to build Jive Add-Ons. Reach out in the [Jive Developer Community](community.jivesoftware.com/community/developer) if you are interested in contributing.
 
 **This SDK is currently a work in progress.** :smile:
 
